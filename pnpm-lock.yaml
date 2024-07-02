@@ -14,7 +14,7 @@ importers:
 
   apps/apps-a:
     dependencies:
-      pkg-a:
+      '@scope/pkg-a':
         specifier: workspace:*
         version: link:../../packages/pkg-a
       tooling-config:
